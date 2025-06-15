@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sistema de Gerenciamento de Hackathons Universitários
 
 > **Atividade desenvolvida para a disciplina de Programação Modular, ministrada pelo professor Daniel Kansaon, do curso de Engenharia de Software. Projeto realizado pelos alunos Pedro Henrique Santos Vieira e Italo Vinhas Antunes Silva.**
@@ -93,5 +92,3 @@ O projeto segue o diagrama UML proposto, com as seguintes entidades principais:
 
 Este projeto é uma base sólida para sistemas de gerenciamento de eventos acadêmicos e pode ser expandido para incluir novas funcionalidades conforme a necessidade.
 =======
->>>>>>> 1aa57cb495cd6451925727981bf33f38bdc0eb14
-
