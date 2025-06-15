@@ -1,7 +1,7 @@
-public class Jurado extends Profissional{
-    public String especialidade;
+public class Orientador extends Profissional {
+    private String especialidade;
 
-    public Jurado(String nome, String cpf,Instituicao instituicao, String areaAtuacao, String especialidade){
+    public Orientador(String nome, String cpf, Instituicao instituicao, String areaAtuacao, String especialidade) {
         super(nome, cpf, instituicao, areaAtuacao);
         this.especialidade = especialidade;
     }
@@ -9,6 +9,7 @@ public class Jurado extends Profissional{
     public String getEspecialidade() {
         return especialidade;
     }
+
     public void setEspecialidade(String especialidade) {
         this.especialidade = especialidade;
     }

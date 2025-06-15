@@ -2,8 +2,8 @@ public class Estudante extends Pessoa{
     public String curso;
     public int periodo;
 
-    public Estudante(String nome, String cpf, String curso, int periodo){
-        super(nome,cpf);
+    public Estudante(String nome, String cpf,Instituicao instituicao, String curso, int periodo){
+        super(nome,cpf, instituicao);
         this.curso = curso;
         this.periodo = periodo;
     }

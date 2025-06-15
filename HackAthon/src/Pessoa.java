@@ -3,7 +3,7 @@ public abstract class Pessoa {
     private String cpf;
     private Instituicao instituicao;
 
-    public Pessoa(String nome, String cpf){
+    public Pessoa(String nome, String cpf, Instituicao instituicao){
         this.nome = nome;
         this.cpf = cpf;
     }

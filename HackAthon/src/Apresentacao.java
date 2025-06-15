@@ -17,4 +17,8 @@ public class Apresentacao {
         banca.calcularNotaFinal();
     }
 
+    public Projeto getProjeto() {
+        return this.projeto;
+    }
+
 }

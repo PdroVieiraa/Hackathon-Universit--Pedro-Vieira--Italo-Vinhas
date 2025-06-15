@@ -1,8 +1,8 @@
 public abstract class Profissional extends Pessoa{
     public String areaAtuacao;
 
-    public Profissional(String nome, String cpf, String areaAtuacao){
-        super(nome, cpf);
+    public Profissional(String nome, String cpf,Instituicao instituicao, String areaAtuacao){
+        super(nome, cpf, instituicao);
         this.areaAtuacao = areaAtuacao;
     }
 

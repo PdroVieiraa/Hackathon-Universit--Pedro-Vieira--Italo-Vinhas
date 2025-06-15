@@ -1,6 +1,3 @@
-
-
-
 public class Projeto {
 
     private String titulo;
@@ -10,9 +7,11 @@ public class Projeto {
     private double NotaFinal;
 
 
-    public Projeto(String titulo, String descricao) { // Orientador e Equipe devem ser adicionados posteriormente
+    public Projeto(String titulo, String descricao, Profissional orientador, Equipe equipe) {
         this.titulo = titulo;
         this.descricao = descricao;
+        this.orientador = orientador;
+        this.equipe = equipe;
     }
 
     public String getTitulo() {
