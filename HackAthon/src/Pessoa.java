@@ -1,6 +1,7 @@
 public abstract class Pessoa {
-    public String nome;
-    public String cpf;
+    private String nome;
+    private String cpf;
+    private Instituicao instituicao;
 
     public Pessoa(String nome, String cpf){
         this.nome = nome;
@@ -18,6 +19,9 @@ public abstract class Pessoa {
     }
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+    public Instituicao getInstituicao() {
+        return instituicao;
     }
     @Override
     public String toString() {

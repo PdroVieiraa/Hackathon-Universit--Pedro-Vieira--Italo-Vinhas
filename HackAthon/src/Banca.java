@@ -5,6 +5,7 @@ public class Banca implements Avaliavel {
     private Projeto projetoAvaliado;
     private Map<Jurado, Integer> jurados = new HashMap<>();
 
+
     public Banca(String titulo, String descricao) {
         this.projetoAvaliado = new Projeto(titulo, descricao);
     }
@@ -13,17 +14,17 @@ public class Banca implements Avaliavel {
         jurados.put(jurado, nota);
    } 
 
-   public double calcularNotaFinal(){
+   public void calcularNotaFinal(){
         if(jurados.isEmpty()){
             projetoAvaliado.setNotaFinal(0);
-            return 0;
+            return;
         }
 
         int soma = 0;
         for(Integer nota : jurados.values()){
             soma += nota;
+            return;
         }
-        return (double) soma / jurados.size();
    }
 
 }

@@ -5,8 +5,8 @@ public class Projeto {
 
     private String titulo;
     private String descricao;
-    private Equipe equipe = new Equipe();
-    private Orientador orientador = new Orientador();
+    private Equipe equipe;
+    private Profissional orientador;
     private double NotaFinal;
 
 
@@ -39,11 +39,11 @@ public class Projeto {
         this.equipe = equipe;
     }
 
-    public Orientador getOrientador() {
+    public Profissional getOrientador() {
         return orientador;
     }
 
-    public void setOrientador(Orientador orientador) {
+    public void setOrientador(Profissional orientador) {
         this.orientador = orientador;
     }
 
